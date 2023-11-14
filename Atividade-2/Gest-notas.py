@@ -5,7 +5,7 @@ notas = []
 i = 0;
 
 while i != 1:
-    nota = float(input(Digite nota: ))
+    nota = float(input("Digite nota: "))
     if nota > 0 and nota < 11:
         notas.append(nota)
     else:
