@@ -6,7 +6,7 @@ i = 0;
 
 while i != 1:
     nota = float(input())
-    if nota > 0 or nota < 11:
+    if nota > 0 and nota < 11:
         notas.append(nota)
     else:
         i+1
